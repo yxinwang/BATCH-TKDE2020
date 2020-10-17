@@ -1,5 +1,5 @@
 ---
-Source code for paper "BATCH: A Scalable Asymmetric Discrete Cross-Modal Hashing"
+Source code for paper "BATCH:A Scalable Asymmetric Discrete Cross-Modal Hashing"
 ---
 ## Introduction
 ### 0. About the paper
@@ -19,7 +19,7 @@ You can download all dataset from pan.baidu.com. The links are listed as follows
 
 - [WIKI](https://pan.baidu.com/s/1k17NEH-F0NColkBkTRoupA) Password: hf8j
 
-- [FLICKR-25K](https://pan.baidu.com/s/14WkNMvfTdobZ_t29RShXpA ) Password: pism
+- [MIRFLICKR-25K](https://pan.baidu.com/s/14WkNMvfTdobZ_t29RShXpA ) Password: pism
 
 - [NUS-WIDE](https://pan.baidu.com/s/1l_m3ktrrCJIEQshA-ezOuw) Password: cmdi
 
