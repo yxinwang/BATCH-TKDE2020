@@ -13,21 +13,25 @@ Matlab
 ### 2. Datasets
 We use three datasets to perform our experiments, i.e., WIKI, MIRFLICKR-25K, and NUS-WIDE datasets.
 
-#### 2.1. Dataset download:
+#### 2.1. Dataset download (hand-crafted features):
 
 You can download all dataset from pan.baidu.com. The links are listed as follows:
 
-- [WIKI](https://pan.baidu.com/s/xxx) Password: xxxx
+- [WIKI.mat](https://pan.baidu.com/s/1bX5WLpd3dVB3dolbZA8yXg) Password: 6666
 
-- [MIRFLICKR-25K](https://pan.baidu.com/s/xxx) Password: xxxx
+- [MIRFLICKR0.mat](https://pan.baidu.com/s/1OZmFz-3EwYvKOsHr0JCr0g) Password: 6666
 
-- [NUS-WIDE](https://pan.baidu.com/s/xxx) Password: xxxx
+- [NUSWIDE10.mat](https://pan.baidu.com/s/1bJOJrdcKWCZBG2cDV5FdBQ) Password: 6666
 
+#### 2.2. Dataset download (CNN features):
+You can download all dataset from pan.baidu.com. The links are listed as follows:
+
+- [MIRFLICKR_deep.mat](https://pan.baidu.com/s/1pG661FEvDkpWwPhDPCH2ow) Password: 6666
+
+- [NUSWIDE21_deep.mat](https://pan.baidu.com/s/1-KDPDiUnkuAGBOOnl_ELmA) Password: 6666
 
 
 ### 3. Run demo
-
-#### 3.1. Matlab version:
 
 Run main_demo.m.
 
