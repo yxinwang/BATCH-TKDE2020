@@ -17,18 +17,18 @@ We use three datasets to perform our experiments, i.e., WIKI, MIRFLICKR-25K, and
 
 You can download all dataset from pan.baidu.com. The links are listed as follows:
 
-- [WIKI.mat](https://pan.baidu.com/s/1bX5WLpd3dVB3dolbZA8yXg) Password: 6666
+- [WIKI.mat](https://pan.baidu.com/s/19gU0UEnt5m60mmllejrCUA) Password: 6q9q
 
-- [MIRFLICKR0.mat](https://pan.baidu.com/s/1OZmFz-3EwYvKOsHr0JCr0g) Password: 6666
+- [MIRFLICKR0.mat](https://pan.baidu.com/s/13QeSOhwb6OGaL2e4oV2AyQ) Password: xc42
 
-- [NUSWIDE10.mat](https://pan.baidu.com/s/1bJOJrdcKWCZBG2cDV5FdBQ) Password: 6666
+- [NUSWIDE10.mat](https://pan.baidu.com/s/17wJ7NfEggeAvgc7A1L75sw) Password: 4rci
 
 #### 2.2. Dataset download (CNN features):
 You can download all dataset from pan.baidu.com. The links are listed as follows:
 
-- [MIRFLICKR_deep.mat](https://pan.baidu.com/s/1pG661FEvDkpWwPhDPCH2ow) Password: 6666
+- [MIRFLICKR_deep.mat](https://pan.baidu.com/s/1lApMnVnnyigF5r-ZyaXF1w) Password: ntrf
 
-- [NUSWIDE21_deep.mat](https://pan.baidu.com/s/1-KDPDiUnkuAGBOOnl_ELmA) Password: 6666
+- [NUSWIDE21_deep.mat](https://pan.baidu.com/s/1nVVhIuJe2xEl_2eRU6tMeA) Password: smpp
 
 
 ### 3. Run demo
