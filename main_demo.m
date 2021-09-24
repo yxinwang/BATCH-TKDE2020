@@ -7,7 +7,7 @@ if ~isdir(result_URL)
     mkdir(result_URL);
 end
 
-db = {'MIRFLICKR','NUSWIDE10'};
+db = {'MIRFLICKR0','NUSWIDE10'};
 hashmethods = {'BATCH'};
 % hashmethods = {'CCQ','CMFH','CRE','FSH','LSSH','SCM-seq','SCRATCH','SePH-km','SMFH','SRSH','BATCH'};
 loopnbits = [8 16 24 32 64 96 128];
@@ -24,7 +24,7 @@ for dbi = 1     :length(db)
     load(['./datasets/',db_name,'.mat']);
     result_name = [result_URL 'final_' db_name '_result' '.mat'];
 
-    if strcmp(db_name, 'MIRFLICKR')
+    if strcmp(db_name, 'MIRFLICKR0')
         X = [I_tr; I_te]; Y = [T_tr; T_te]; L = [L_tr; L_te];
         R = randperm(size(L,1));
         sampleInds = R(2001:end);
