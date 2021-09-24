@@ -81,7 +81,7 @@ for dbi = 1     :length(db)
                     fprintf('......%s start...... \n\n', 'BATCH');
                     BATCHparam = param;
                     BATCHparam.eta1 = 0.05; BATCHparam.eta2 = 0.05; BATCHparam.eta0 = 0.9;
-                    BATCHparam.omega = 0.01; BATCHparam.xi = 0.01; param.max_iter = 6;
+                    BATCHparam.omega = 0.01; BATCHparam.xi = 0.01; BATCHparam.max_iter = 6;
                     eva_info_ = evaluate_BATCH(XKTrain,YKTrain,LTrain,XKTest,YKTest,LTest,BATCHparam);
                 case 'CCQ'
                     fprintf('......%s start...... \n\n', 'CCQ');
