@@ -8,8 +8,8 @@ function evaluation_info=evaluate_BATCH(XKTrain,YKTrain,LTrain,XKTest,YKTest,LTe
     B = train_BATCH(GTrain,XKTrain,YKTrain,LTrain,param);
 	
 	% Hash functions learning
-    XW = (XKTrain'*XKTrain+param.xix*eye(size(XKTrain,2)))    \    (XKTrain'*B);
-    YW = (YKTrain'*YKTrain+param.xiy*eye(size(YKTrain,2)))    \    (YKTrain'*B);
+    XW = (XKTrain'*XKTrain+param.xi*eye(size(XKTrain,2)))    \    (XKTrain'*B);
+    YW = (YKTrain'*YKTrain+param.xi*eye(size(YKTrain,2)))    \    (YKTrain'*B);
     
     traintime=toc;
     evaluation_info.trainT=traintime;
