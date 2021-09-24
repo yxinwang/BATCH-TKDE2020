@@ -6,17 +6,17 @@ function evaluation_info=evaluate_BATCH(XKTrain,YKTrain,LTrain,XKTest,YKTest,LTe
     
     % Hash codes learning
     B = train_BATCH(GTrain,XKTrain,YKTrain,LTrain,param);
-	
-	% Hash functions learning
+    
+    % Hash functions learning
     XW = (XKTrain'*XKTrain+param.xi*eye(size(XKTrain,2)))    \    (XKTrain'*B);
     YW = (YKTrain'*YKTrain+param.xi*eye(size(YKTrain,2)))    \    (YKTrain'*B);
     
     traintime=toc;
     evaluation_info.trainT=traintime;
     
-	tic;
-	
-	% Cross-Modal Retrieval
+    tic;
+    
+    % Cross-Modal Retrieval
     BxTest = compactbit(XKTest*XW>0);
     BxTrain = compactbit(B>0);
     DHamm = hammingDist(BxTest, BxTrain);
