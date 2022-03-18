@@ -9,7 +9,6 @@ end
 
 db = {'MIRFLICKR0','NUSWIDE10'};
 hashmethods = {'BATCH'};
-% hashmethods = {'CCQ','CMFH','CRE','FSH','LSSH','SCM-seq','SCRATCH','SePH-km','SMFH','SRSH','BATCH'};
 loopnbits = [8 16 24 32 64 96 128];
 
 param.top_K = 2000;
@@ -83,46 +82,6 @@ for dbi = 1     :length(db)
                     BATCHparam.eta1 = 0.05; BATCHparam.eta2 = 0.05; BATCHparam.eta0 = 0.9;
                     BATCHparam.omega = 0.01; BATCHparam.xi = 0.01; BATCHparam.max_iter = 6;
                     eva_info_ = evaluate_BATCH(XKTrain,YKTrain,LTrain,XKTest,YKTest,LTest,BATCHparam);
-                case 'CCQ'
-                    fprintf('......%s start...... \n\n', 'CCQ');
-                    CCQparam = param;
-                    eva_info_ = evaluate_CCQ(XTrain,YTrain,LTrain,XTest,YTest,LTest,CCQparam);
-                case 'CMFH'
-                    fprintf('......%s start...... \n\n', 'CMFH');
-                    CMFHparam = param;
-                    eva_info_ = evaluate_CMFH(XTrain,YTrain,LTrain,XTest,YTest,LTest,CMFHparam);
-                case 'CRE'
-                    fprintf('......%s start...... \n\n', 'CRE');
-                    CREparam = param;
-                    eva_info_ = evaluate_CRE(XTrain,YTrain,LTrain,XTest,YTest,LTest,CREparam);
-                case 'FSH'
-                    fprintf('......%s start...... \n\n', 'FSH');
-                    FSH_param = param;
-                    eva_info_ = evaluate_FSH(XTrain,YTrain,LTrain,XTest,YTest,LTest,FSH_param);
-                case 'LSSH'
-                    fprintf('......%s start...... \n\n', 'LSSH');
-                    LSSHparam = param;
-                    eva_info_ =evaluate_LSSH(XTrain,YTrain,LTrain,XTest,YTest,LTest,LSSHparam);
-                case 'SCM-seq'
-                    fprintf('......%s start...... \n\n', 'SCM-seq');
-                    SCM_sepparam = param;
-                    eva_info_ = evaluate_SCM_seq(XTrain,YTrain,LTrain,XTest,YTest,LTest,SCM_sepparam);
-                case 'SePH-km'
-                    fprintf('......%s start...... \n\n', 'SePH-km');
-                    SePHparam = param;
-                    eva_info_ = evaluate_SePH_km(XTrain,YTrain,LTrain,XTest,YTest,LTest,SePHparam);
-                case 'SCRATCH'
-                    fprintf('......%s start...... \n\n', 'SCRATCH');
-                    SDMFHparam = param;
-                    eva_info_ = evaluate_SDMFH(XTrain,YTrain,LTrain,XTest,YTest,LTest,SDMFHparam);
-                case 'SMFH'
-                    fprintf('......%s start...... \n\n', 'SMFH');
-                    SMFHparam = param;
-                    eva_info_ = evaluate_SMFH(XTrain,YTrain,LTrain,XTest,YTest,LTest,SMFHparam);
-                case 'SRSH'
-                    fprintf('......%s start...... \n\n', 'SRSH');
-                    SRSHparam = param;
-                    eva_info_ = evaluate_SRSH(XTrain,YTrain,LTrain,XTest,YTest,LTest,SRSHparam);
             end
             eva_info{jj,ii} = eva_info_;
             clear eva_info_
