@@ -11,8 +11,8 @@ Matlab
 ```
 
 ### 2. Datasets
-We use three datasets to perform our experiments, i.e., WIKI, MIRFLICKR-25K, and NUS-WIDE datasets. You can download all dataset from pan.baidu.com. The links are listed as follows:
-- https://pan.baidu.com/s/1MP1_t18bKE6Y8zYoJ3T8CA Password: MIMA
+We use three datasets to perform our experiments, i.e., WIKI, MIRFLICKR, and NUSWIDE datasets. You can download all dataset from pan.baidu.com. The links are listed as follows:
+- https://pan.baidu.com/s/1oLeC_pEQlSc9paD61i0kbA?pwd=j2im Password: j2im
 
 ### 3. Run demo
 
